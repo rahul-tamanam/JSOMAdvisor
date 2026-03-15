@@ -1,1 +1,2 @@
-"JSOMAdvisor" 
+JSOMAdvisor-Analytics Practicum
+
