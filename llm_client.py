@@ -19,6 +19,6 @@ def chat(system_prompt, messages, temperature=0.5):
             *messages
         ],
         temperature=temperature,
-        max_tokens=1024
+        max_tokens=512
     )
     return response.choices[0].message.content
