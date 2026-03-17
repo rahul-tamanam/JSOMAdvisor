@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+env/
+.env
+.env
+# Vector store database (rebuild from data)
+vector_store/chroma_db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# LM Studio / model files
+*.gguf
+*.bin
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
